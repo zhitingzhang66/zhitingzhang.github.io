@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "assets/uploads"
+
+collections:
+  - name: "journal"
+    label: "Studio Journal"
+    files:
+      - label: "Journal Posts"
+        name: "posts"
+        file: "content/journal.json"
+        fields:
+          - label: "Posts"
+            name: "posts"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.category}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Date", name: "date", widget: "datetime", required: false, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { label: "Category", name: "category", widget: "select", options: ["Teaching Notes", "Studio News", "Welcome"] }
+              - { label: "Short summary", name: "summary", widget: "text", hint: "This is shown on the Journal page before readers open the article." }
+              - { label: "Article body", name: "body", widget: "markdown", required: false }
+              - { label: "Optional image", name: "image", widget: "image", required: false }

@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "title": "Welcome to the Studio Journal",
+      "date": "2026-09-14",
+      "category": "Welcome",
+      "summary": "A place for teaching notes, practice ideas, chamber music reflections, and news from the studio.",
+      "body": "Music learning is a long, individual journey. This journal will share ideas that support students and families along the way—from establishing a joyful practice routine to discovering the listening skills that make chamber music meaningful.\n\nCheck back here for teaching notes, studio announcements, and upcoming activities."
+    },
+    {
+      "title": "New teaching notes coming soon",
+      "date": "",
+      "category": "Teaching Notes",
+      "summary": "Practical ideas for young cellists, families, and developing musicians will be shared here.",
+      "body": ""
+    },
+    {
+      "title": "Studio activities & events",
+      "date": "",
+      "category": "Studio News",
+      "summary": "Recitals, chamber music projects, and studio updates will be announced here.",
+      "body": ""
+    }
+  ]
+}
