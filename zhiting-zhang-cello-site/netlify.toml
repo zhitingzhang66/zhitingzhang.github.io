@@ -17,6 +17,11 @@
   status = 200
 
 [[redirects]]
+  from = "/studio"
+  to = "/studio.html"
+  status = 200
+
+[[redirects]]
   from = "/contact"
   to = "/contact.html"
   status = 200
@@ -24,4 +29,34 @@
 [[redirects]]
   from = "/journal"
   to = "/journal.html"
+  status = 200
+
+[[redirects]]
+  from = "/zh/about"
+  to = "/zh/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/zh/lessons"
+  to = "/zh/lessons.html"
+  status = 200
+
+[[redirects]]
+  from = "/zh/studio"
+  to = "/zh/studio.html"
+  status = 200
+
+[[redirects]]
+  from = "/zh/performances"
+  to = "/zh/performances.html"
+  status = 200
+
+[[redirects]]
+  from = "/zh/journal"
+  to = "/zh/journal.html"
+  status = 200
+
+[[redirects]]
+  from = "/zh/contact"
+  to = "/zh/contact.html"
   status = 200
