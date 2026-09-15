@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zhitingwebite.netlify.app/sitemap.xml
